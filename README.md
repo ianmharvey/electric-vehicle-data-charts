@@ -2,10 +2,10 @@
   <img src="https://cloud.ibm.com/media/docs/developer-appservice/resources/ibm-cloud.svg" height="100" alt="IBM Cloud">
 </p>
 
-# Node.js application
+# Demo application
 
-Test application: Electric Vehicle Data
+Test application displaying electric vehicle data charts. Build wth Node.js, IBM Cloudant and hosted on IBM Cloud.
 
-# Demo
+# View Demo
 
 Visit <a href="https://oecd-iea.mybluemix.net/">https://oecd-iea.mybluemix.net/</a>
