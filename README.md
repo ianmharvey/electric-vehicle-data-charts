@@ -4,7 +4,7 @@
 
 # Demo application
 
-Test application displaying electric vehicle data charts. Build wth Node.js, IBM Cloudant and hosted on IBM Cloud.
+Test application displaying electric vehicle data charts. Built with Node.js, IBM Cloudant and hosted on IBM Cloud.
 
 # View Demo
 
