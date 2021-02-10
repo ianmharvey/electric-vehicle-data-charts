@@ -205,16 +205,15 @@ strong {
   width: 100%;
   max-width: 1035px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 2.5rem;
 }
 
 .row {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-template-rows: auto;
-  grid-gap: 3rem;
-  row-gap: 3rem;
-  padding: 0 0 2rem 0;
+  grid-gap: 2.5rem;
+  row-gap: 2.5rem;
 }
 
 .container > .row > div > p > img,
@@ -263,7 +262,7 @@ select::-ms-expand { display: none; }
   font-weight: 300;
 	color: var(--black);
   width: 25rem;
-  height: calc(1.5rem + 0.5rem + 2rem);
+  height: calc(1.5rem + 1rem + 2rem);
   padding: 1rem 1rem;
   font-size: inherit;
   background-clip: padding-box;

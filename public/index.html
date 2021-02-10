@@ -22,6 +22,9 @@
     <div class="container">
       <nav>
         <div class="logo"><img src="images/electric-vehicle.png" width="50" height="50" border="0" alt=""></div>
+        <ul>
+          <li>For demonstration purposes only</li>
+        </ul>
       </nav>
     </div>
   </header>
@@ -31,40 +34,44 @@
       <div class="row">
         <div>
           <h1>Electric Vehicle Data</h1>
-          <p class="lead">For demonstration purposes only.</p>
-          <p>Select a country from the menu to view chart.</p>
+				</div>
+			</div>
 
-          <div class="row">
-            <div>
-              <label>Country</label>
-              <select class="select country" onchange="byCountry()">
-              </select>
-            </div>
+			<div class="row">
+				<div>
+					
+						<label>Country</label>
+						<select class="select country" onchange="byCountry()">
+						</select>
+						</div>
+						<div>
+					
+						<label>Filter</label>
+						<select class="select filter" onchange="byCountry()">
+							<option value="">None</option>
+							<option value="electric_vehicle_stock_in_millions">Electric Vehicle Stock</option>
+							<option value="electric_vehicle_chargers">Electric Vehicle Chargers</option>
+						</select>
 
-            <div>
-              <label>Filter</label>
-              <select class="select param" onchange="byCountry()">
-                <option value="">None</option>
-                <option value="electric_vehicle_stock_in_millions">Electric Vehicle Stock</option>
-                <option value="electric_vehicle_chargers">Electric Vehicle Chargers</option>
-              </select>
-            </div>
+				</div>
 
-            <div>
-              <label>By Date</label>
-              <select class="select">
-                <option></option>
-              </select>
-            </div>
-          </div>
+				<!--
+				<div>
+					<label>By Date</label>
+					<select class="select">
+						<option></option>
+					</select>
+				</div>
+				-->
+			</div>
 
-          <div class="countries"></div>
-
-          <div><canvas class="chart1"></canvas></div>
-          <div><canvas class="chart2"></canvas></div>
-
-        </div>
-      </div>
+			<div class="row">
+        <div>
+					<div class="countries"></div>
+					<div><canvas class="chart1"></canvas></div>
+					<div><canvas class="chart2"></canvas></div>
+				</div>
+			</div>
     </div>
   </main>
 
